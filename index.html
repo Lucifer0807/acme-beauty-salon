@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acme Beauty Salon | Luxury & Warmth</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Phosphor Icons (for stars/icons) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+
+    <!-- Sticky Navigation -->
+    <nav class="navbar transition">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#">Acme.</a>
+            </div>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="#reviews">Reviews</a>
+            </div>
+            <div class="nav-cta">
+                <a href="https://wa.me/918982841321?text=Hi%20Varsha!%20I%20would%20like%20to%20book%20an%20appointment%20at%20Acme%20Beauty%20Salon."
+                    class="btn btn-outline" target="_blank">Book Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Section 1: Hero -->
+        <section class="hero dark-section" id="hero">
+            <div class="hero-glow"></div>
+            <div class="container hero-content">
+                <div class="hero-badge fade-up">
+                    <span class="ph-fill ph-star"></span> 4.7
+                    <span class="badge-separator">|</span>
+                    50+ Reviews
+                </div>
+                <h1 class="hero-title stagger-text">
+                    <span class="block">Where you</span>
+                    <span class="block italic">come to feel</span>
+                    <span class="block highlight">beautiful.</span>
+                </h1>
+                <div class="hero-actions fade-up delay-2">
+                    <a href="#services" class="btn btn-primary">Discover Services</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Marquee -->
+        <section class="marquee terracotta-bg">
+            <div class="marquee-content">
+                <span>Hair Styling</span>
+                <span class="ph ph-sparkle"></span>
+                <span>Colouring & Highlights</span>
+                <span class="ph ph-sparkle"></span>
+                <span>Skin Care</span>
+                <span class="ph ph-sparkle"></span>
+                <span>Nail Care</span>
+                <span class="ph ph-sparkle"></span>
+                <span>Waxing & Threading</span>
+                <span class="ph ph-sparkle"></span>
+                <span>Bridal Package</span>
+                <span class="ph ph-sparkle"></span>
+            </div>
+            <!-- Duplicated for seamless loop -->
+            <div class="marquee-content" aria-hidden="true">
+                <span>Hair Styling</span>
+                <span class="ph ph-sparkle"></span>
+                <span>Colouring & Highlights</span>
+                <span class="ph ph-sparkle"></span>
+                <span>Skin Care</span>
+                <span class="ph ph-sparkle"></span>
+                <span>Nail Care</span>
+                <span class="ph ph-sparkle"></span>
+                <span>Waxing & Threading</span>
+                <span class="ph ph-sparkle"></span>
+                <span>Bridal Package</span>
+                <span class="ph ph-sparkle"></span>
+            </div>
+        </section>
+
+        <!-- Section 3: About / Stats -->
+        <section class="about light-section split-layout container">
+            <div class="split-left about-copy fade-up">
+                <h2 class="section-title">An intimate escape in the heart of Nagda.</h2>
+                <p>At Acme Beauty Salon, we believe every woman deserves to look and
+                    feel her best. Whether you're dropping in for a quick clean-up or
+                    getting ready for your wedding day — we give the same care and
+                    attention to every single client.</p>
+            </div>
+            <div class="split-right stats-grid fade-up delay-1">
+                <div class="stat-box">
+                    <div class="stat-number">4.7<span class="ph-fill ph-star"></span></div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Happy Reviews</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">6+</div>
+                    <div class="stat-label">Specialty Services</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Years of Excellence</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="owner-note terracotta-bg" style="padding: 6rem 0;">
+            <div class="container split-layout fade-up">
+                <div class="split-left owner-text-content">
+                    <span class="ph ph-quotes"
+                        style="font-size: 3rem; color: var(--clr-gold); margin-bottom: 1rem; opacity: 0.8; display: block;"></span>
+                    <p
+                        style="font-family: var(--font-heading); font-size: 1.8rem; font-style: italic; color: var(--clr-cream); line-height: 1.4; margin-bottom: 2rem;">
+                        "Every woman who walks through our door deserves to feel special. I put my heart into every
+                        service — because when you look good, you feel good. And that’s what Acme is all about."
+                    </p>
+                    <div
+                        style="font-family: var(--font-body); color: var(--clr-cream); text-transform: uppercase; letter-spacing: 0.1em; font-size: 1.1rem; font-weight: 600;">
+                        — Varsha Khandelwal, Owner
+                    </div>
+                </div>
+                <div class="split-right owner-image-side">
+                    <div class="owner-photo-container"
+                        style="border: 2px solid var(--clr-gold); padding: 10px; background: rgba(253, 248, 242, 0.05); max-width: 320px; margin-left: auto;">
+                        <img src="assets/24.jpeg" alt="Varsha Khandelwal"
+                            style="width: 100%; height: auto; display: block; border-radius: 2px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Services -->
+        <section class="services dark-section" id="services">
+            <div class="container container-narrow">
+                <div class="section-header text-center fade-up">
+                    <h2 class="section-title">Our Services</h2>
+                    <p class="section-subtitle">Tailored treatments crafted for your unique beauty</p>
+                </div>
+                <div class="service-list">
+                    <div class="service-row fade-up">
+                        <div class="service-num">01</div>
+                        <div class="service-details">
+                            <h3 class="service-name">Hair Styling</h3>
+                            <p class="service-desc">Precision cuts and artful styling designed to elevate your everyday
+                                look.</p>
+                            <a href="gallery.html#hair-styling" class="link-arrow"
+                                style="margin-top: 10px; font-size: 0.75rem;">View Gallery <span
+                                    class="ph ph-arrow-right"></span></a>
+                        </div>
+                        <div class="service-price">From ₹400</div>
+                    </div>
+                    <div class="service-row fade-up">
+                        <div class="service-num">02</div>
+                        <div class="service-details">
+                            <h3 class="service-name">Colouring & Highlights</h3>
+                            <p class="service-desc">Rich dimensional color, balayage, and restorative treatments.</p>
+                            <a href="gallery.html#coloring" class="link-arrow"
+                                style="margin-top: 10px; font-size: 0.75rem;">View Gallery <span
+                                    class="ph ph-arrow-right"></span></a>
+                        </div>
+                        <div class="service-price">From ₹1,500</div>
+                    </div>
+                    <div class="service-row fade-up">
+                        <div class="service-num">03</div>
+                        <div class="service-details">
+                            <h3 class="service-name">Skin Care</h3>
+                            <p class="service-desc">Rejuvenating facials and clean-ups that restore your natural glow.
+                            </p>
+                            <a href="gallery.html#skincare" class="link-arrow"
+                                style="margin-top: 10px; font-size: 0.75rem;">View Gallery <span
+                                    class="ph ph-arrow-right"></span></a>
+                        </div>
+                        <div class="service-price">From ₹800</div>
+                    </div>
+                    <div class="service-row fade-up">
+                        <div class="service-num">04</div>
+                        <div class="service-details">
+                            <h3 class="service-name">Nail Care</h3>
+                            <p class="service-desc">Impeccable manicures and pedicures with a curated polish selection.
+                            </p>
+                            <a href="gallery.html#nails" class="link-arrow"
+                                style="margin-top: 10px; font-size: 0.75rem;">View Gallery <span
+                                    class="ph ph-arrow-right"></span></a>
+                        </div>
+                        <div class="service-price">From ₹500</div>
+                    </div>
+                    <div class="service-row fade-up">
+                        <div class="service-num">05</div>
+                        <div class="service-details">
+                            <h3 class="service-name">Waxing & Threading</h3>
+                            <p class="service-desc">Gentle, precise hair removal using premium formulas for smooth skin.
+                            </p>
+                        </div>
+                        <div class="service-price">From ₹300</div>
+                    </div>
+                    <div class="service-row fade-up">
+                        <div class="service-num">06</div>
+                        <div class="service-details">
+                            <h3 class="service-name">Bridal Package</h3>
+                            <p class="service-desc">Comprehensive luxury preparation for your most important day.</p>
+                            <a href="gallery.html#bridal" class="link-arrow"
+                                style="margin-top: 10px; font-size: 0.75rem;">View Gallery <span
+                                    class="ph ph-arrow-right"></span></a>
+                        </div>
+                        <div class="service-price">Custom Quote</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Gallery -->
+        <section class="gallery light-section" id="gallery">
+            <div class="container fade-up">
+                <div class="gallery-grid">
+                    <div class="gallery-item item-tall">
+                        <img src="assets/1.jpeg" alt="Bridal styling" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/13.jpeg" alt="Facial treatment" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/29.jpeg" alt="Aesthetic details" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/5.jpeg" alt="Hair care" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/20.jpeg" alt="Salon interior" loading="lazy">
+                    </div>
+                    <div class="gallery-item item-tall">
+                        <img src="assets/34.jpg" alt="Salon styling" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/35.jpg" alt="Beauty detail" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/36.jpg" alt="Hair transformation" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/37.jpg" alt="Professional service" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/41.jpg" alt="Final makeover" loading="lazy">
+                    </div>
+                </div>
+                <div class="text-center" style="margin-top: 40px; text-align: center;">
+                    <a href="gallery.html" class="btn btn-outline">View Full Gallery</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Bridal Feature -->
+        <section class="bridal light-section container split-layout">
+            <div class="split-left bridal-content fade-up">
+                <div class="decorative-letter">B</div>
+                <h2 class="section-title italic">Bridal Elegance</h2>
+                <p>Your wedding day deserves nothing short of perfection. Our dedicated team specializes in
+                    comprehensive bridal transformations, from pre-wedding skin regimes to the final flawless makeup
+                    application. Experience luxury that ensures you shine your brightest.</p>
+                <a href="#contact" class="link-arrow">Inquire about dates <span class="ph ph-arrow-right"></span></a>
+            </div>
+            <div class="split-right bridal-image fade-up delay-1">
+                <div class="image-wrapper">
+                    <img src="assets/2.jpeg" alt="Bridal makeup" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7: Reviews -->
+        <section class="reviews dark-section" id="reviews">
+            <div class="container">
+                <div class="section-header text-center fade-up">
+                    <h2 class="section-title">Words from Our Clients</h2>
+                </div>
+                <div class="reviews-grid">
+                    <div class="review-card fade-up">
+                        <div class="stars">
+                            <span class="ph-fill ph-star"></span><span class="ph-fill ph-star"></span><span
+                                class="ph-fill ph-star"></span><span class="ph-fill ph-star"></span><span
+                                class="ph-fill ph-star"></span>
+                        </div>
+                        <p class="review-quote">"Beautiful Services... Specially the behavior and hospitality of the
+                            owner and staff is amazing. Excellent and Exceptional work done. Plus Budget Friendly.
+                            Really a one stop solution!"</p>
+                        <p class="review-author">— Lovika Hingorani</p>
+                    </div>
+                    <div class="review-card fade-up delay-1">
+                        <div class="stars">
+                            <span class="ph-fill ph-star"></span><span class="ph-fill ph-star"></span><span
+                                class="ph-fill ph-star"></span><span class="ph-fill ph-star"></span><span
+                                class="ph-fill ph-star"></span>
+                        </div>
+                        <p class="review-quote">"My experience with the salon was amazing. I booked Varsha di for my
+                            bridal makeup and the services provided were soo much satisfying. I was looking soo
+                            beautiful on my wedding day."</p>
+                        <p class="review-author">— Divya Suvarna</p>
+                    </div>
+                    <div class="review-card fade-up delay-2">
+                        <div class="stars">
+                            <span class="ph-fill ph-star"></span><span class="ph-fill ph-star"></span><span
+                                class="ph-fill ph-star"></span><span class="ph-fill ph-star"></span><span
+                                class="ph-fill ph-star"></span>
+                        </div>
+                        <p class="review-quote">"Varsha is superb in her field. Perfect in every aspect i can say. Me
+                            and my sisters took her service for my sister's wedding. All of us are really satisfied with
+                            her service."</p>
+                        <p class="review-author">— Deepika Sharma</p>
+                    </div>
+                    <div class="review-card fade-up delay-3">
+                        <div class="stars">
+                            <span class="ph-fill ph-star"></span><span class="ph-fill ph-star"></span><span
+                                class="ph-fill ph-star"></span><span class="ph-fill ph-star"></span><span
+                                class="ph-fill ph-star"></span>
+                        </div>
+                        <p class="review-quote">"She is very nice makeup artist... i love her work... doing very well in
+                            all work... keep it up all the best for ur bright future."</p>
+                        <p class="review-author">— Suchi</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 8: Contact & Booking -->
+        <section class="contact light-section container split-layout" id="contact">
+            <div class="split-left contact-info fade-up">
+                <div class="section-header" style="margin-bottom: 30px;">
+                    <h2 class="section-title">Reach Out & Find Us</h2>
+                </div>
+                <div class="info-group">
+                    <h4>Visit Us</h4>
+                    <p>Shri Ram Colony, <br>Behind Mother Mary School <br>Nagda, MP 456331</p>
+                </div>
+                <div class="info-group">
+                    <h4>Hours</h4>
+                    <p>Mon – Sat: 10:30 AM – 7:30 PM<br>Sunday: Closed</p>
+                </div>
+                <div class="info-group">
+                    <h4>Reach Out</h4>
+                    <p><a href="https://wa.me/918982841321?text=Hi%20Varsha!%20I%20would%20like%20to%20book%20an%20appointment%20at%20Acme%20Beauty%20Salon."
+                            target="_blank">+91 89828 41321</a></p>
+                </div>
+                <div style="margin-top: 30px;">
+                    <a href="https://wa.me/918982841321?text=Hi%20Varsha!%20I%20would%20like%20to%20book%20an%20appointment%20at%20Acme%20Beauty%20Salon." 
+                       class="btn btn-primary" target="_blank">Book Now</a>
+                </div>
+            </div>
+            <div class="split-right contact-map fade-up delay-1">
+                <div class="map-outer">
+                    <div class="map-inner">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.42857448202!2d75.4250098!3d23.4572077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396475690333771f%3A0xdbf1eccc58643f98!2sAcme%20Beauty%20Salon!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Section 9: Footer -->
+    <footer class="footer dark-section">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <span class="footer-logo">Acme.</span>
+                <p class="copyright">&copy; 2026 Acme Beauty Salon. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <a href="https://www.instagram.com/acme_beautysalon/" class="social-link" target="_blank"><span
+                        class="ph ph-instagram-logo"></span></a>
+                <a href="https://www.facebook.com/AcmeParlour/" class="social-link" target="_blank"><span
+                        class="ph ph-facebook-logo"></span></a>
+                <p class="credit">Made by Raghav Khandelwal</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- GSAP for advanced animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

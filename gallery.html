@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Gallery | Acme Beauty Salon</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Phosphor Icons (for stars/icons) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        .gallery-page {
+            padding-top: 150px;
+            padding-bottom: 80px;
+        }
+
+        .full-gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 24px;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            aspect-ratio: 4/5;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+
+    <!-- Sticky Navigation -->
+    <nav class="navbar transition">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">Acme.</a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html#services">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="index.html#reviews">Reviews</a>
+            </div>
+            <div class="nav-cta">
+                <a href="https://wa.me/918982841321" class="btn btn-outline" target="_blank">Book Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Gallery Section -->
+        <section class="gallery light-section gallery-page">
+            <div class="container fade-up">
+                <div class="section-header text-center" style="margin-bottom: 60px;">
+                    <h2 class="section-title">Our Complete Portfolio</h2>
+                    <p class="section-subtitle">Experience our plethora of styles, from simple haircuts to grand bridal
+                        makeovers.</p>
+                </div>
+
+                <div id="bridal" style="margin-bottom: 60px;">
+                    <h3
+                        style="font-family: var(--font-heading); font-size: 2rem; margin-bottom: 1rem; color: var(--clr-terracotta);">
+                        Bridal Package Makeovers</h3>
+                    <div class="full-gallery-grid">
+                        <div class="gallery-item"><img src="assets/1.jpeg" alt="Bridal Makeover" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/3.jpeg" alt="Beauty Treatment" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/4.jpeg" alt="Makeup Finish" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/5.jpeg" alt="Bridal Style" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/6.jpeg" alt="Bridal Elegance" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/34.jpg" alt="Bridal Look 34" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/35.jpg" alt="Bridal Look 35" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/36.jpg" alt="Bridal Look 36" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/37.jpg" alt="Bridal Look 37" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/41.jpg" alt="Bridal Look 41" loading="lazy"></div>
+                    </div>
+                </div>
+
+                <div id="hair-styling" style="margin-bottom: 60px;">
+                    <h3
+                        style="font-family: var(--font-heading); font-size: 2rem; margin-bottom: 1rem; color: var(--clr-terracotta);">
+                        Hair Styling</h3>
+                    <div class="full-gallery-grid">
+                        <div class="gallery-item"><img src="assets/12.jpeg" alt="Hair Styling 1" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/14.jpeg" alt="Hair Styling 2" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/23.jpeg" alt="Hair Styling 3" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/22.jpeg" alt="Hair Styling 4" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/26.jpeg" alt="Hair Styling 5" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/27.jpeg" alt="Hair Styling 6" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/38.jpg" alt="Hair Styling 7" loading="lazy"></div>
+                    </div>
+                </div>
+
+                <div id="coloring" style="margin-bottom: 60px;">
+                    <h3
+                        style="font-family: var(--font-heading); font-size: 2rem; margin-bottom: 1rem; color: var(--clr-terracotta);">
+                        Colouring & Highlights</h3>
+                    <div class="full-gallery-grid">
+                        <div class="gallery-item"><img src="assets/8.jpeg" alt="Colouring" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/25.jpeg" alt="Hair Highlights" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/39.jpg" alt="Hair Glow" loading="lazy"></div>
+                    </div>
+                </div>
+
+                <div id="nails" style="margin-bottom: 60px;">
+                    <h3
+                        style="font-family: var(--font-heading); font-size: 2rem; margin-bottom: 1rem; color: var(--clr-terracotta);">
+                        Nail Care</h3>
+                    <div class="full-gallery-grid">
+                        <div class="gallery-item"><img src="assets/15.jpeg" alt="Nail Care 1" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/17.jpeg" alt="Nail Care 3" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/18.jpeg" alt="Nail Care 4" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/19.jpeg" alt="Nail Care 5" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/20.jpeg" alt="Nail Care 6" loading="lazy"></div>
+                        <div class="gallery-item"><img src="assets/32.jpeg" alt="Nail Care 6" loading="lazy"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer dark-section">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <span class="footer-logo">Acme.</span>
+                <p class="copyright">&copy; 2026 Acme Beauty Salon. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <a href="https://www.instagram.com/acme_beautysalon/" class="social-link" target="_blank"><span
+                        class="ph ph-instagram-logo"></span></a>
+                <a href="https://www.facebook.com/AcmeParlour/" class="social-link" target="_blank"><span
+                        class="ph ph-facebook-logo"></span></a>
+                <p class="credit">Made by Raghav Khandelwal</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
